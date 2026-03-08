@@ -1,0 +1,12 @@
+# Configuración y Datos Privados (¡NUNCA SUBIR!)
+app_config/
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+GEMINI.md

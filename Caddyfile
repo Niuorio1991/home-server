@@ -1,0 +1,26 @@
+# Este archivo mapea nombres a puertos automáticamente.
+# ¡Recuerda que para usar estos nombres debes seguir el Paso 5 Opcional del README!
+
+panel.casa {
+	reverse_proxy homepage:3000
+}
+
+jellyfin.casa {
+	reverse_proxy jellyfin:8096
+}
+
+radarr.casa {
+	reverse_proxy radarr:7878
+}
+
+sonarr.casa {
+	reverse_proxy sonarr:8989
+}
+
+prowlarr.casa {
+	reverse_proxy prowlarr:9696
+}
+
+descargas.casa {
+	reverse_proxy transmission:9091
+}
