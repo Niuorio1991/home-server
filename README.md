@@ -1,5 +1,7 @@
 # 🏠 Home-Server: Tu Cine en Casa de forma Sencilla
 
+![Placeholder: Captura principal del panel Homepage mostrando widgets y servicios](/docs/images/homepage_main.png)
+
 ¡Bienvenido! Este proyecto monta tu propio **Home-Server** para películas y series automático. Es inteligente, se actualiza solo y tiene un panel de control increíble para manejar todo desde un solo lugar.
 
 ---
@@ -44,32 +46,17 @@ El archivo `.env` guarda tus configuraciones personales de forma segura.
 Una vez que la terminal termine, abre tu navegador web favorito y entra a esta dirección:
 👉 [**http://localhost:3000**](http://localhost:3000)
 
+![Placeholder: Captura del Panel Homepage recién instalado](/docs/images/homepage_clean.png)
+
 ¡Aquí verás tu nuevo panel de control (Homepage) con acceso directo a todas las aplicaciones!
 
 ---
 
 ## 🔗 Paso 5: Configuración Inicial de las Aplicaciones
 
-La primera vez que entres, necesitarás hacer unas conexiones rápidas entre las apps (solo se hace una vez):
+La primera vez que entres a tu panel, necesitarás dedicar unos de 5 a 10 minutos para hacer las conexiones internas entre todos los programas (para que busquen y descarguen). Esto **solo se hace la primera vez**.
 
-1. **Jellyfin (Tu Netflix Personal):**
-   * Entra desde tu panel web y sigue el asistente para crear tu usuario.
-   * Al agregar tus bibliotecas (Películas o Series), selecciona la carpeta que se llama `/media`.
-
-2. **Transmission (Las descargas):**
-   * Listo para usarse. Gestionará las descargas en segundo plano.
-
-3. **Radarr (Películas) y Sonarr (Series):**
-   * Ve a "Settings" (Ajustes) > "Download Clients" (Clientes de descarga).
-   * Añade "Transmission". Donde te pide el "Host", simplemente escribe `transmission`.
-
-4. **Prowlarr (El buscador):**
-   * Entra a "Indexers" y añade un par de sitios gratuitos (ej. TorrentGalaxy, 1337x).
-   * Ve a "Settings" > "Apps" y añade a **Radarr** y **Sonarr** para que usen lo que encuentra.
-   * *El secreto:* En la URL (dirección) de cada uno pon `http://radarr:7878` y `http://sonarr:8989`. Te pedirá su API Key, la puedes sacar de los Ajustes > General de Radarr y Sonarr.
-
-5. **Bazarr (Subtítulos):**
-   * Ve a ajustes, conéctalo a Sonarr (`http://sonarr:8989`) y Radarr (`http://radarr:7878`). Configura tus idiomas preferidos (ej. Español) y ¡descargará los subtítulos por magia!
+👉 **[ABRIR GUÍA DE CONFIGURACIÓN INICIAL (Paso a Paso) ⚙️](docs/CONFIGURACION_INICIAL.md)**
 
 ---
 
