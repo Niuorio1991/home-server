@@ -73,6 +73,15 @@ La primera vez que entres, necesitarás hacer unas conexiones rápidas entre las
 
 ---
 
+## 🎓 ¿Cómo usarlo y cómo funciona?
+
+Hemos preparado una **[Guía Básica de Uso (Haz clic aquí)](docs/GUIA_BASICA.md)** súper amigable donde te explicamos:
+* Cómo funciona la "magia" entre las aplicaciones.
+* Cómo pedir y descargar tu primera película.
+* Cómo descargar una serie paso a paso.
+
+---
+
 ## ✨ Bonus: Direcciones "Pro" (Opcional)
 
 Si prefieres usar nombres elegantes en tu navegador en lugar de números o el panel:
